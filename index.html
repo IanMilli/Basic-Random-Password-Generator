@@ -13,42 +13,47 @@
 
 <body>
     <header>
-        <h1>Random Password Generator</h1>
-        <h2>Author <h3>I Millichamp</h3></h2>
+        <h1>Basic Random Password Generator</h1>
+        <h2 class="text-center">Click on the 'Generate Password Key to produce a password of 15 characters that are randomized symbols,
+            numbers, lower and upper case letters and click the copy button to copy the password to your clipboard</h2>
     </header>
-    <div class="jumbotron jumbotron-fluid bg-dark">
+    <div class="jumbotron jumbotron-fluid ">
         <div class="container">
             <h4 class="subtitle">Generate A Password</h4>
-            <div class="card text-center">
-                <div class="card-header bg-primary">
-
-                </div>
+            <div class="card text-center cardMain">
                 <div class="card-body">
                     <div class="result_container">
                         <input type="text" placeholder="Generate Password" id="password" readonly>
                         <button class="copy-result bg-primary" id="copy" onclick="copyPassword()">
-                          <h5>Copy</h5>
+                            <h5>Copy</h5>
                         </button>
-                      </div>
-                    
-                      <button class="generatePasswordBtn bg-danger"  onclick="generatePassword()">
+                    </div>
+
+                    <button class="generatePasswordBtn bg-danger" onclick="generatePassword()">
                         <h6>Generate Password</h6>
-                      </button>
+                    </button>
                 </div>
-                <div class="card-footer text-muted bg-primary">
+                
 
                 </div>
             </div>
         </div>
-    
+
     </div>
 
-</div>
-    
+    </div>
+    <footer>
+        <div class="text-center text-primary p-3" id="copyright-link">© 2023 Copyright:
+            <a class="text-primnary" href="https://github.com/IanMilli"> Ian
+                Millichamp</a>
+        </div>
+        <img class=" rounded-5 d-block mx-auto" src="./assets/images/logo2.png"
+            style="height:25vh;width:auto;border-radius: 20%;"><img>
+    </footer>
 
 
 
-<script src="./assets/index.js"></script>
+    <script src="./assets/index.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -59,7 +64,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-   
+
 </body>
 
 </html>

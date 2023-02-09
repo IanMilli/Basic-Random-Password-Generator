@@ -1,16 +1,16 @@
 body {
     margin: 0;
-    background-color: rgb(17, 123, 243);
+    background-color: rgb(190, 255, 243);
 }
 
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4vw;
-    color: black;
+    color: Navy;
 
 }
 h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
 
 }
 h3{font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,7 +22,7 @@ h3{font-family: Georgia, 'Times New Roman', Times, serif;
 h4{font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5vw;
     color: white;
-    background-color: black;
+   
 
 }
 h5{font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,11 +56,17 @@ width: 100%;
 }
 
 .jumbotron {
-    background-image: url("./images/background-copy.jpg");
+    background-image: url("./images/backgroundGenerator.jpg");
     background-size: cover;
   }
+.cardMain {
+    background-image: url("./images/backgroundInput.jpg");
+    background-size: cover;
+}
+
 
   .result_container {
+    
     display: flex;
     align-items: center;
     justify-content: center;
