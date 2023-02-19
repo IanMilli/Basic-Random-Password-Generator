@@ -10,7 +10,7 @@ function generatePassword() {
 console.log(characters);
 // note had to remove some symbols as they have effect on javascript such as $;'.
 // we have been asked to give the password a length of 12 characters therefore i will create a variable equal to 12.
-let passwordLength = 12;
+let passwordLength = 14;
 console.log(passwordLength);
 
 //define a variable for password in the function to equal the symbols from the string in the variable characters

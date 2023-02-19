@@ -1,39 +1,41 @@
+/*styling to remove any default margins from the page and to set the page background as light blue*/
 body {
     margin: 0;
-    background-color: rgb(17, 123, 243);
+    background-color: rgb(190, 255, 243);
 }
 
-
-h1{font-family: Georgia, 'Times New Roman', Times, serif;
+/*styling to font classes to determine text color and ensure text is responsive to multiple display sizes by using vw unit*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4vw;
-    color: black;
-
+    color: Navy;
 }
-h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2.5vw;
 
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vw;
 }
-h3{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    color: #03037a;
 
-
-}
-h4{font-family: Georgia, 'Times New Roman', Times, serif;
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5vw;
     color: white;
-    background-color: black;
-
 }
-h5{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    color: white;}
 
-h6{font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 2vw;
-        color: white;
-    
-    }
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    color: white;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    color: white;
+}
+
+/*styling to main header section using margin-top to set a margin above the header text, and flex commands to organize the header into a column format
+  and to be centrally located on the page*/
 header {
     margin-top: 5rem;
     display: flex;
@@ -42,39 +44,77 @@ header {
     align-items: center;
 }
 
+/*styling to subtitle class  using flex commands to organize the subtitle to be centrally located on the page*/
 .subtitle {
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/*styling to card class  to give it a black border and to set the  width of the card to 100% of the container it is located within and a automatic
+height determined by its contents*/
 .card {
-    border: 3px; 
+    border: 3px;
     border-color: black;
     height: auto;
-width: 100%;
+    width: 100%;
 }
 
+/*styling to the jumbotron to give it a background image that is set to cover to fill the jumbotron and no repeat so on larger displays the image does not repeat itself. */
 .jumbotron {
-    background-image: url("./images/background-copy.jpg");
+    background-image: url("./images/backgroundGenerator.jpg");
     background-size: cover;
-  }
+    background-repeat: no-repeat;
+}
 
-  .result_container {
+/*styling to the cardMain class to give it a background image that is set to cover to fill the jumbotron and no repeat so on larger displays the image does not repeat itself. */
+.cardMain {
+    background-image: url("./images/backgroundInput.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*styling to the result_container class to give it a bottom margin to ensure its not sat tightly on the bottom of the cotainer and to
+use flex to justify items as required. */
+.result_container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1em;
-    
-  }
+}
 
-  input{
-    height: 3.5vw;
+/*styling to the input box to set its height and width */
+input {
+    height: auto;
     margin-right: 4vw;
-  }
-  
-  
-  
-  
-  
-  
+}
+
+/* Buttons arranged in column on xs devices */
+@media screen and (max-width: 576px) {
+
+    .btn,
+    .responsive-content {
+        width: 40%;
+        height: auto;
+        padding: 10px 15px;
+        margin: 5px 10px;
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width:750px) {
+    .responsive-content {
+        width: 40%;
+        height: auto;
+        font-size: 1.7vw;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .responsive-content {
+        font-size: 2vw;
+        width: 100%;
+        height: auto;
+    }
+}
