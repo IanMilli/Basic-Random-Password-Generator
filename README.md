@@ -1,81 +1,98 @@
-# Your Project Title
+# Basic Random Password Generator
+ 
+   ## Table of Contents
 
-## Description 
+   * [Description](#description)
+   * [Technologies](#technologies)
+   * [Links](#links)
+   * [Installation](#installation)
+   * [WireFraming](#wireframing)
+   * [UserStory](#userstory)
+   * [Development](#development)
+   * [Usage](#usage)
+   * [Screenshots](#screenshots)
+   * [Tests](#tests)
+   * [Evolution](#evolution)
+   * [Credits](#credits)
+   * [References](#references)
+   * [Contributing](#contributing)
+   * [License](#license)
+   
+   
+   ## Description
 
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
+   This project is to understand the basics of how to create a basic random password generator before expanding to a more advanced version that allows the size of the password to be determined by the user.
 
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
+   ## Technologies
 
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
+   HTML, Bootstrap 4.31, CSS, Flexbox, Node Js (creation of readme), JavaScript
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
+   ## Links
 
-Lastly, if your project is deployed, include a link to the deployed application here.
+   ### Link for [Deployed Application](https://ianmilli.github.io/Basic-Random-Password-Generator-Web-Application/)
+   
+   ### Link for [Repository For Deployed Application](https://github.com/IanMilli/Basic-Random-Password-Generator-Web-Application)
+   
+   ## Installation 
 
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+   This is a web based application, to access it please use the link for the deployed project to be found under [Links](#links).
 
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+  
 
+   ## UserStory
 
-## Table of Contents (Optional)
+   As a user i want to a basic random password generator that will at the click of a button produce a 15 character password made up of numbers, special symbols and lower-case and upper-case letters
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+   ## Development
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+   The project was developed by doing research into how to create a basic password generator to understand how the java script can  perform this function. I then decided i wished to code my own user interface and so created one from scratch that would be responsive to multiple sized displays.
 
+   ## Usage
 
-## Installation
+   The user goes to the link for the deployed project using the appropriate link in the [Links Section](#links). 
+   They then click on the generate password button and the javaScript function will randomly pick 15 characters and display them in the readonly input box. The user can then click the copy button allowing them to copy the password to their clipboard for use later.
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+   ## Screenshots
 
+   yes, this is a placeholder for screenshots to be added
 
-## Usage 
+   ## Tests
 
-Provide instructions and examples for use. Include screenshots as needed. 
+   Passwords generated
+   * M,|pm//gI5GJ?Z+
+   * !fz>eui!5tX[JuJ
+   * e[>c>]^!x:akH#>
+   * .d}>^BGx?f-nyVy
+   * uwYYxa0oiO:&F.H
+   * b1Jl#k{ovKhP!n!
+   * BycUxuY4NC([=c@
+   * hd<%%TiT:[se2b*
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+   ## Evolution
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+   the project will next be evolved to allow a user to set parameters that will define the size and content of the password.
 
+   ## Credits
 
-## Credits
+   * Main Author:                   Ian Millichamp
+   * Main Author Email:             ianmillichamp.2@gmail.com
+   * Main Author GitHub User Name:  IanMilli
 
-List your collaborators, if any, with links to their GitHub profiles.
+  
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+   ## References
 
-If you followed tutorials, include links to those here as well.
+   Credit to Tutorial with Suresh S Kumar 3pm 10/01/23
+    Reference Week 1, 2 and 3 Trilogy EDX Bootcamp classes - HTML and CSS code Week 4 and 5 Bootcamp classes Javascript usage
+    MDN Documents W3 School Dev.to - random password generator using javascript 
+    git hub - https://github.com/TiffanyCasey/Password-Generator - Tiffany Casey webdesign.tuts.com/tutorial/random-password-generator-with javascript
 
+   
 
-## License
+   ## Questions
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+   If you have further questions, you can reach me at ianmillichamp.2@gmail.com. For more of my work, see [my GitHub](https://github.com/https://github.com/IanMilli).
+  
+   ## License
 
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
+   ![License badge](https://img.shields.io/badge/license-MIT-brightgreen).
