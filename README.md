@@ -43,7 +43,7 @@
 
    As a user i want to a basic random password generator that will at the click of a button produce a 15 character password made up of numbers, special symbols and lower-case and upper-case letters.
 
-   A video displaying how to use the application may be seen here at [video link](https://drive.google.com/file/d/1FWqRyvLZOi8TMR3HK2P-yP312EQsfkuk/view) or by scanning the following QR code:
+   A video displaying how to use the application may be seen here at [video link](https://drive.google.com/file/d/1V-IwLbYf9N8hsuBdfIUWPj8KKnBVfFsT/view) or by scanning the following QR code:
   * ![qr-code (1)](https://user-images.githubusercontent.com/120601739/219945892-165870b3-968c-4866-87be-521c4dfdac3d.png)
 
 
