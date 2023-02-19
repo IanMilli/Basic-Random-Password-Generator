@@ -69,7 +69,8 @@ Screenshot to show what the user sees when they click 'Generate Password':
 
 Gif to display the functuality of the site
 
-* ![screenshot 1](https://user-images.githubusercontent.com/120601739/219946536-1baace7f-0b93-40c2-8062-f4c389a7e1ac.png)
+* ![Basic Password Generator](https://user-images.githubusercontent.com/120601739/219946698-70fc26b9-f777-43b7-b3df-07e8f49f5bec.gif)
+
 
 
    yes, this is a placeholder for screenshots to be added
