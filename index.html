@@ -5,56 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--title of document-->
+    <title>Basic Password Generator</title>
+    <!--link to bootstrap 4.3.1 css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--link to local css file-->
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 
 <body>
     <header>
+        <!--header text-->
         <h1>Basic Random Password Generator</h1>
-        <h2 class="text-center">Click on the 'Generate Password Key to produce a password of 15 characters that are randomized symbols,
+        <!--description of how to use the application for the user-->
+        <h2 class="text-center">Click on the 'Generate Password Key to produce a password of 15 characters that are
+            randomized symbols,
             numbers, lower and upper case letters and click the copy button to copy the password to your clipboard</h2>
     </header>
+    <!--jumbotron with fluid class to make it responsive to multiple display sizes and to frame the central card -->
     <div class="jumbotron jumbotron-fluid ">
+        <!-- central area that will contain the display box of the generated password, required buttons-->
         <div class="container">
-            <h4 class="subtitle">Generate A Password</h4>
+            <!--subtitle for central area-->
+            <h3 class="subtitle">Generate A Password</h3>
+            <!-- card to organize display box and buttons centrally on the page - added class of cardMain for css styling purpose-->
             <div class="card text-center cardMain">
                 <div class="card-body">
+                    <!--added class result_container for styling purpose-->
                     <div class="result_container">
+                        <!-- input box for the generated text to display in - set to readonly so user can not accidentally type here-->
                         <input type="text" placeholder="Generate Password" id="password" readonly>
+                        <!--button that links to the copyPassword function located in index.js-->
                         <button class="copy-result bg-primary" id="copy" onclick="copyPassword()">
-                            <h5>Copy</h5>
+                            <h4>Copy</h4>
                         </button>
                     </div>
-
+                    <!--button that links to the function generatePassword in index.js-->
                     <button class="generatePasswordBtn bg-danger" onclick="generatePassword()">
-                        <h6>Generate Password</h6>
+                        <h5>Generate Password</h5>
                     </button>
-                </div>
-                
-
                 </div>
             </div>
         </div>
-
     </div>
-
-    </div>
+<!--page footer to display authors details, using text-center to justify text and text-primary to make it blue-->
     <footer>
         <div class="text-center text-primary p-3" id="copyright-link">© 2023 Copyright:
+            <!--linked name of author to authors main github repository-->
             <a class="text-primnary" href="https://github.com/IanMilli"> Ian
                 Millichamp</a>
         </div>
+        <!--added authors branded logo-->
         <img class=" rounded-5 d-block mx-auto" src="./assets/images/logo2.png"
             style="height:25vh;width:auto;border-radius: 20%;"><img>
     </footer>
-
-
-
+    <!--link to local js file-->
     <script src="./assets/index.js"></script>
-
+<!--links to bootstrap js files-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -64,7 +72,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
