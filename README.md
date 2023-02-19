@@ -43,8 +43,7 @@
 
    As a user i want to a basic random password generator that will at the click of a button produce a 15 character password made up of numbers, special symbols and lower-case and upper-case letters.
 
-   A video displaying how to use the application may be seen here at [video link](https://drive.google.com/file/d/1V-IwLbYf9N8hsuBdfIUWPj8KKnBVfFsT/view) or by scanning the following QR code:
-  * ![qr-code (1)](https://user-images.githubusercontent.com/120601739/219945892-165870b3-968c-4866-87be-521c4dfdac3d.png)
+  
 
 
    ## Development
@@ -55,6 +54,10 @@
 
  * The user goes to the link for the deployed project using the appropriate link in the [Links Section](#links). 
  * They then click on the generate password button and the javaScript function will randomly pick 15 characters and display them in the readonly input box. The user   can then click the copy button allowing them to copy the password to their clipboard for use later.
+ 
+  A video displaying how to use the application may be seen here at [video link](https://drive.google.com/file/d/1V-IwLbYf9N8hsuBdfIUWPj8KKnBVfFsT/view) or by scanning the following QR code:
+  * ![qr-code (1)](https://user-images.githubusercontent.com/120601739/219946573-525a9fae-3ae9-4f2e-84d9-951d438c77a6.png)
+
 
    ## Screenshots
 Screenshot to show what the user sees when they link to the web application: 
@@ -63,9 +66,10 @@ Screenshot to show what the user sees when they link to the web application:
 Screenshot to show what the user sees when they click 'Generate Password':
 * ![screenshot 2](https://user-images.githubusercontent.com/120601739/219945823-78617387-0a8b-4d64-9e44-5e571e15eb85.png).
 
+
 Gif to display the functuality of the site
 
-* ![Basic Password Generator](https://user-images.githubusercontent.com/120601739/219945868-598a9e37-b8f4-4795-93e7-f006dea5c7db.gif)
+* ![screenshot 1](https://user-images.githubusercontent.com/120601739/219946536-1baace7f-0b93-40c2-8062-f4c389a7e1ac.png)
 
 
    yes, this is a placeholder for screenshots to be added
